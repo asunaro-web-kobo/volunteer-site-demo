@@ -486,37 +486,24 @@ nav.nav ul.item li.list a {
   font-size: 0.8rem;
 }
 
-ul.sns-container {
+ul.sns-list {
   display: flex;
-  justify-content: space-between;
-  width: 150px;
-  margin: 0 auto;
-  /* background-color: palegoldenrod; */
-}
-
-ul.sns-container li.list {
-  padding-right: 0;
-}
-
-ul.sns-container li.list img {
-  width: 50px;
-  height: auto;
-}
-
-.line-qr-code {
-  width: 150px;
-  height: 150px;
-  display: flex;
-  text-align: center;
-  align-items: center;
   justify-content: center;
-  margin: 0 auto;
-  background-color: #9dbca2;
-  color: #fff;
-  margin: 3rem auto;
+  align-items: center;
+  width: 250px;
+  margin: 2rem auto;
 }
 
-.copyright {
+.sns-list i {
+  font-size: 36px;
+  color: #fff;
+  transition: color 0.3s ease;
+  padding: 1rem;
+}
+
+.sns-list a:hover i {
+  color: var(--sub-color);
+}.copyright {
   background: var(--main-color);
   padding: 1rem;
 }
