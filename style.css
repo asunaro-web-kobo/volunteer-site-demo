@@ -597,7 +597,7 @@ ul.sns-list {
     max-width: 60%;
   }
 
-  ul.sns-container {
+  /* ul.sns-container {
     display: flex;
     justify-content: space-between;
     width: 150px;
@@ -612,7 +612,7 @@ ul.sns-list {
   ul.sns-container li.list img {
     width: 50px;
     height: auto;
-  }
+  } */
 
   nav.nav ul.item li.list {
     padding: 0 1rem;
